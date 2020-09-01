@@ -1,5 +1,5 @@
 # Use dawsoncai base image
-FROM dawsoncai/jmbase:latest
+FROM dawsoncai/jmeter-base:latest
 MAINTAINER DawsonJmeterTest
 
 # Ports to be exposed from the container for JMeter Master
