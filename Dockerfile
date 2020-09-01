@@ -22,8 +22,6 @@ RUN   mkdir /jmeter \
       && rm apache-jmeter-$JMETER_VERSION.tgz \
       && cd /jmeter/apache-jmeter-$JMETER_VERSION/lib/ \
       && wget https://repo1.maven.org/maven2/org/python/jython-standalone/2.7.2/jython-standalone-2.7.2.jar \
-      && tar -xzf jython-standalone-2.7.2.jar \
-      && rm jython-standalone-2.7.2.jar \
       && cd /jmeter/ \
       && mkdir /jmeter-plugins \
       && cd /jmeter-plugins/ \
